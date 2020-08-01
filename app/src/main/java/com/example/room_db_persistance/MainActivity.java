@@ -61,8 +61,6 @@ public class MainActivity extends AppCompatActivity {
 
                 Student studentToDelete=students.get(viewHolder.getAdapterPosition());
                 deleteStudent(studentToDelete);
-
-
             }
         }).attachToRecyclerView(recyclerView);
 
